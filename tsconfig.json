@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "strict": true,
+        "skipLibCheck": true,
+        "outDir": "js",
+        "strictNullChecks": false,
+    },
+    "include": [
+        "./src/*"
+    ]
+}
