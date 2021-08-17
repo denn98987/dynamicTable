@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Table</title>
-    <script defer src="js/App.js"></script>
+    <script type="module" src="js/App.js"></script>
+    <link rel="stylesheet" href="./Style.css">
 </head>
 <body>
-
+    <input type="text" id="searchField">
+    <button id="searchButton" value="find">Find</button>
+    <button id="cancelSearchButton" value="find">Cancel</button>
+    <for><input type="checkbox" id="ordered">Ascending?</for>
+    <select name="columns" id="columns">
+        <option value="0">id</option>
+        <option value="1">first name</option>
+        <option value="2">last name</option>
+        <option value="3">email</option>
+        <option value="4">gender</option>
+        <option value="5">ip</option>
+    </select>
+    <button id="sortButton">Sort</button>
+    <button id="cancelSortButton">Cancel</button>
+    <div id="root"></div>
 </body>
 </html>

@@ -2,7 +2,8 @@
   "name": "dinamictable",
   "version": "1.0.0",
   "description": "A test task for Tensor",
-  "main": "index.js",
+  "main": "App.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --ext .ts"
@@ -18,8 +19,12 @@
   },
   "homepage": "https://github.com/denn98987/dynamicTable#readme",
   "devDependencies": {
+    "@types/node": "^16.6.1",
     "@typescript-eslint/eslint-plugin": "^4.29.1",
     "@typescript-eslint/parser": "^4.29.1",
     "eslint": "^7.32.0"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
   }
 }
